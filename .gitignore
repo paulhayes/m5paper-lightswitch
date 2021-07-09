@@ -1,0 +1,4 @@
+.pio
+.vscode
+src/creds.h
+**/*.ignore
