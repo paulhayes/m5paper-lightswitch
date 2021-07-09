@@ -12,8 +12,8 @@ const int interationTimeout = 10000;
 const int maxButtons = 10;
 EPDGUI_Button *btns[32];
 
-String effectListAddress = "http://office-lights.lan/effects";
-String selectEffectAddress = "http://office-lights.lan/effects/select/";
+String effectListAddress = String("http://")+String(HOSTNAME)+String("/effects");
+String selectEffectAddress = String("http://")+String(HOSTNAME)+String("/effects/select/");
 String *effectNames[32];
 String *effectIds[32];
 int numEffects = 0;
